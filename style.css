@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-color: rgb(8, 8, 70);
+}
+
+#heading{
+    color: oldlace;
+    font-family: cursive;
+}
+
+#heading1{
+    color: rgb(8, 8, 70);
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#vs{
+    color: oldlace;
+    font-family: cursive;
+}
+
+#vs span{
+    color: gold;
+}
+
+.test_image{
+    background-color: oldlace;
+    width: 35%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.test_image img{
+    width: 50%;
+    margin-right: 5px;
+}
+
+#result_div{
+    text-align: left;
+    width: 100%;
+    margin-left: 10px;
+}
+
+#result_div h4,h3{
+    font-family: cursive;
+    color: rgb(8, 8, 70);
+    font-weight: bold;
+}
+
+#result_div h4{
+    font-size: 20px;
+}
+
+#result_div h4 span{
+    color: gold;
+}
+

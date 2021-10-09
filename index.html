@@ -1,0 +1,62 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+ <br>
+ <h2 id="heading">Case Study</h2>
+ <br>
+ <h4 id="vs"><span>Mobile Net</span> Vs <span>Google Lens</span></h4>
+ <hr>
+ <br>
+
+ <div class="test_image">
+   <h4 id="heading1">First Sample Image</h4>
+   <div id="result_div">
+     <center>
+    <img src="bottle.jpg" class="img-responsive">
+    </center>
+   <h4 class="result">Output on Google Lens: <span id="result_google_lens">Cello Bottle</span></h4>
+   <h4 class="result">Output on Mobile Net: <span id="result_mobile_net">Water Bottle</span></h4>
+   <h3>Result: <span id="result_accurate">Google lens</span> is more accurate</h3>
+  </div>
+  </div>
+  <br><br>
+  <div class="test_image">
+    <h4 id="heading1">Second Sample Image</h4>
+    <div id="result_div">
+      <center>
+     <img src="crocs.jpg" class="img-responsive">
+     </center>
+    <h4 class="result">Output on Google Lens: <span id="result_google_lens">Crocs</span></h4>
+    <h4 class="result">Output on Mobile Net: <span id="result_mobile_net">Shoes</span></h4>
+    <h3>Result: <span id="result_accurate">Google lens</span> is more accurate</h3>
+   </div>
+   </div>
+   <br><br>
+  <div class="test_image">
+    <h4 id="heading1">Third Sample Image</h4>
+    <div id="result_div">
+      <center>
+     <img src="keychain.jpeg" class="img-responsive">
+     </center>
+    <h4 class="result">Output on Google Lens: <span id="result_google_lens">Keychain</span></h4>
+    <h4 class="result">Output on Mobile Net: <span id="result_mobile_net">Emoji keys</span></h4>
+    <h3>Result: <span id="result_accurate">Mobile net</span> is more accurate</h3>
+   </div>
+   </div>
+</center>
+</body>
+
+</html>
